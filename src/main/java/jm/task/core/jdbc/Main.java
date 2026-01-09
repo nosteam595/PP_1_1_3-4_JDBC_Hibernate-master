@@ -9,7 +9,9 @@ public class Main {
         UserDaoJDBCImpl userDaoJDBC = new UserDaoJDBCImpl();
 
         //userDaoJDBC.saveUser("Иван", "Иванович", (byte) 50);
-        userDaoJDBC.createUsersTable();
+        //userDaoJDBC.createUsersTable();
+        //userDaoJDBC.dropUsersTable();
+        //System.out.println(userDaoJDBC.getAllUsers());
 
 
 
